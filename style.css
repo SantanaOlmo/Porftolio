@@ -1,11 +1,44 @@
 body{
-background: url(imagenes\videos\bumble-bee-sus.gif) no-repeat center center fixed;
+margin: 0;
+width: 100%;
+overflow-x: hidden;
+
 }
 
-#titulo{
-    font-size: 80px;
+main{
+    background: url(imagenes\naotekid.png) no-repeat center center fixed;
+    background-size: cover;
+
+}
+.center-text{
+    text-align: center;
+        
+    font-size: 200%;
     display: grid;
     place-items: center;
     height: 100VH;
     
+}
+.enlaces{
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.cosas{
+    color: black;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+
+footer{
+    text-align: center;
+    width: 100%;
+    padding: 5%;
+    background-color: rgb(188, 188, 188);
+    margin-bottom:0%;
+}
+.contactos{
+padding: 3%;
+margin-left: 0%;
 }
