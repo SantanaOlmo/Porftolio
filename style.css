@@ -1,15 +1,11 @@
 body{
-
+background: url(imagenes\videos\bumble-bee-sus.gif) no-repeat center center fixed;
 }
-#fondo{
-    width: 100vw; /* Ajusta el ancho de la imagen al 100% de la ventana */
-    height: 100vh; /* Ajusta la altura de la imagen al 100% de la ventana */
-    object-fit: cover; /* Escala la imagen para cubrir todo el área visible */
-    position: absolute; /* Permite que la imagen ocupe todo el área del viewport */
-    top: 0; /* Alinea la imagen en la parte superior de la ventana */
-    left: 0; /* Alinea la imagen en el lado izquierdo de la ventana */
-    margin: 0; /* Evita cualquier margen alrededor de la imagen */
-    padding: 0; /* Elimina cualquier padding alrededor de la imagen */
-    overflow: hidden; /* Asegura que no haya barras de desplazamiento */
-    display: block;  
+
+#titulo{
+    font-size: 80px;
+    display: grid;
+    place-items: center;
+    height: 100VH;
+    
 }
