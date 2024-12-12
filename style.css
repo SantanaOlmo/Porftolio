@@ -1,69 +1,24 @@
-body,html{
-margin: 0;
-width: 100%;
-overflow-x: hidden;
-text-decoration: none;
-background-image: url(imagenes/Sin\ título-1.png);
-background-repeat: no-repeat;
-background-position: center center;
-background-size: cover;
-background-attachment: fixed;
-background-blend-mode: lighten;
 
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Aseguramos que el cuerpo ocupe toda la pantalla */
+    display: flex; /* Usamos flexbox */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    background-color: #ffffff; /* Color de fondo opcional */
 }
 
-header{
-    font-family:"UnifrakturMaguntia";
-    font-size: 300%;
-    text-align: center;
-    color: aliceblue;
-
-}
-main{
-
-}
-div{
-   
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    text-decoration: none;
-    text-align: center;
-    font-family: "UnifrakturMaguntia";        
-    font-size: 200%;
-    height: 100VH;
-}
-
-#enlaces{
-    
-
-}
-a{
-    text-decoration: none;
-    font-family: "UnifrakturMaguntia";
-    text-align: center;
-    padding: 3%;
-    color: black;
-}
-a:visited{
-    text-decoration: none;
-    color: rgb(30, 146, 19);
-}
-a:hover{
-text-decoration: underline;
-color: rgb(255, 255, 255);
-}
-
+div #titulo{
+    display: flex; /* Flexbox adicional, útil si hay varios elementos en el contenedor */
+    justify-content: center;
+    align-items: center;
+  }
 
 footer{
    padding: 10%;
    display: flex;
    flex-direction: row;
    justify-content: space-evenly;
-
-}
-.contactos{
-    
-
 
 }
